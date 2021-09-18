@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Oxygen';
+}
+
+header{
+    min-height: 50px;
+    background-color: lightgrey;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#container{
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+    align-items:center;
+    padding-right: 40px;
+}
+
+#nav-left{
+    display:flex;
+    align-items: center;
+    gap: 8em;
+}
+
+#nav-left h1{
+    padding-left:40px;
+}
+
+#nav-left input{
+    width: 300px;
+    height: 50%;
+}
+
+#container button{
+    width: 5em;
+    height: 2em;
+    color:white;
+    background-color: steelblue;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+#main-container{
+    min-height: 400px;
+    width:70%;
+    display: flex;
+    margin:0 auto;
+}
+
+#left-block{
+    flex:3;
+    margin:0 auto;   
+}
+
+.ninja-block{
+    min-height: 200px;
+    display: flex;
+    padding: 20px 0px 20px 0px;
+    margin: 20px 0px;
+    border: 5px solid gray;
+    border-radius: 5px;
+}
+
+.ninja-left-box{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.ninja-left-box button{
+    width: 7em;
+    height: 2em;
+    color:black;
+    background-color: yellow;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.ninja-right-box{
+    width: 68%;
+    padding: 39px 10px 10px 12px;
+}
+
+#dojonary-block{
+    flex:2;
+    margin:0 auto;
+}
+
+#dojonary-box{
+    min-height: 155px;
+    /* width:75%; */
+    display: flex;
+    align-content:flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 0px 20px 20px;
+    border: 5px solid gray;
+    border-radius: 5px;
+    margin: 20px 20px 20px 80px;
+}
+
+#dojonary-box button{
+    width: 80%;
+    height: 2em;
+    color:black;
+    background-color: green;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px 5px black;
+}

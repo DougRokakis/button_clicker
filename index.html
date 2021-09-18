@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="container">
+            <div id="nav-left">
+                <h1>Dojonary</h1>
+                <input type="text" placeholder="Search..">
+            </div>
+            <button onclick="logOut(this)">LogIn</button>
+        </div>
+    </header>
+    <div id="main-container">
+        <div id="left-block">
+            <div class="ninja-block">
+                <div class="ninja-left-box">
+                    <h1>ninja</h1>
+                    <h4><i>noun</i></h4>
+                    <h4>Plural: <i>ninjas</i></h4>
+                    <button onclick="increaseLikes()" ><span id="ninja-first-def">0</span> likes</button>
+                </div>
+                <div class="ninja-right-box">
+                    <p>A practitioner skilled in the</p>
+                    <p> <a href="https://en.wikipedia.org/wiki/Japan">Japanese</a> art of <a href="https://en.wikipedia.org/wiki/Ninjutsu">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="ninja-block">
+                <div class="ninja-left-box">
+                    <h1>ninja</h1>
+                    <h4><i>noun</i></h4>
+                    <h4>Plural: <i>ninjas</i></h4>
+                    <button>0 likes</button>
+                </div>
+                <div class="ninja-right-box">
+                    <p>A <a href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks</p>
+                    <p>down problems with <a href="https://en.wikipedia.org/wiki/Zen">zen</a>-like</p>
+                    <p>focus</p>
+                </div>
+            </div>
+        </div>
+        <div id="dojonary-block">
+            <div id="dojonary-box">
+                <h2>
+                    Dojonary is
+                    defined by YOU
+                </h2>
+                <button onclick="disappear(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="button_clicker.js"></script>
+</body>
+</html>
